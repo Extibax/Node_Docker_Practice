@@ -1,0 +1,5 @@
+// Proceso activo en consola
+docker run -it -p 3000:3000 node_docker_practice
+
+// Proceso activo en background
+docker run -d -p 3000:3000 node_docker_practice
